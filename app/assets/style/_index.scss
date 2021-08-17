@@ -1,0 +1,18 @@
+.nav-mt{
+  margin-top: 480px;
+}
+
+.homeBanner{
+  // 背景圖設定
+  height: 480px;
+  width: 100%;
+  background: url(../images/home-banner.jpg)no-repeat;
+  background-size: cover;
+
+  // 不靠推擠，直接定位在layout中間
+  position: absolute;
+  top: 100px;
+
+  // 內部樣式
+  color: #fff;
+}
