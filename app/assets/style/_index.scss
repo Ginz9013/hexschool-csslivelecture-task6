@@ -1,3 +1,4 @@
+// 首頁Banner定位
 .nav-mt{
   margin-top: 480px;
 }
@@ -6,8 +7,7 @@
   // 背景圖設定
   height: 480px;
   width: 100%;
-  background: url(../images/home-banner.jpg)no-repeat;
-  background-size: cover;
+  background: url(../images/home-banner.jpg) center center/cover;
 
   // 不靠推擠，直接定位在layout中間
   position: absolute;
@@ -15,4 +15,34 @@
 
   // 內部樣式
   color: #fff;
+
+  &__tittle{
+    margin-left: 228px;
+
+    
+  }
+}
+
+
+// ”猜你也喜歡“
+.moreEx{
+
+  a{
+    height: 350px;
+    display: block;
+  }
+
+  .ex-1{
+    background: url(../images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg)center center/cover;
+  }
+
+  .ex-2{
+    background: url(../images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg)center center/cover;
+  }
+
+  .ex-3{
+    background: url(../images/museums.jpg)center center/cover;
+  }
+
+  
 }
