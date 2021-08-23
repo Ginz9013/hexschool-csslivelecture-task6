@@ -1,0 +1,35 @@
+.order-hight{
+  height: 246px;
+}
+
+.order-pic{
+  background: url(../../images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg)no-repeat center center/cover;
+  background: #000;
+}
+
+.devider::before{
+  content: "";
+  height: 255px;
+  width: 1px;
+  background: #000;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.selected-bottom-line{
+  border-bottom: 1px solid $secondary;
+}
+
+.ex-fluid-pic{
+  background: url(../../images/max-van-den-oetelaar-IMYe9uYN27E-unsplash.jpg)no-repeat center center/cover;
+  background: #000;
+  height: 400px;
+}
+
+.ex-side-pic{
+  background: url(../../images/ricardo-gomez-angel-j5gCOKZdm6I-unsplash.jpg)no-repeat center center/cover;
+  background: #000;
+  height: 559px;
+}

@@ -12,17 +12,10 @@
   // 不靠推擠，直接定位在layout中間
   position: absolute;
   top: 100px;
-
-  // 內部樣式
-  color: #fff;
-
-  &__tittle{
-    margin-left: 228px;
-
-    
+  @media(max-width: 768px){
+    top: 63px;
   }
 }
-
 
 // ”猜你也喜歡“
 .moreEx{
@@ -42,6 +35,7 @@
 
   .ex-3{
     background: url(../images/museums.jpg)center center/cover;
+    border: 1px solid red;
   }
 
   

@@ -1,6 +1,12 @@
-.subscribe{
-  background: url(../../images/footer-banner.jpg)no-repeat;
-  background-size: cover;
+.header-border{
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.footer-pic{
+  background: url(../../images/footerbanner.jpg)center center/cover;
+  border: 1px solid red;
+  background: #000;
   width: 100%;
   height: 400px;
 }
