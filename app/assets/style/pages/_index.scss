@@ -17,6 +17,26 @@
   }
 }
 
+// 熱門特展
+.hotExhinition{
+
+  a{
+    height: 350px;
+  }
+
+  .ex-1{
+    background: url(../images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg)no-repeat center center/cover;
+  }
+
+  .ex-2{
+    background: url(../images/michel-catalisano--a0D9LpcKV8-unsplash.jpg)no-repeat center center/cover;
+  }
+
+  .ex-3{
+    background: url(../images/moralis-tsai-8xsktFRw28I-unsplash.jpg)no-repeat center center/cover;
+  }
+}
+
 // ”猜你也喜歡“
 .moreEx{
 
