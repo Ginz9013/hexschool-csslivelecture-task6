@@ -11596,8 +11596,8 @@ fieldset:disabled .btn {
 
 .footer-pic {
   background: url(../../images/footerbanner.jpg) center center/cover;
-  border: 1px solid red;
   background: #000;
+  z-index: 99;
   width: 100%;
   height: 400px;
 }
@@ -11635,11 +11635,16 @@ fieldset:disabled .btn {
 
 .moreEx .ex-3 {
   background: url(../images/museums.jpg) center center/cover;
-  border: 1px solid red;
 }
 
-.order-hight {
-  height: 246px;
+.order-banner-hight {
+  height: 256px;
+}
+
+@media (min-width: 768px) {
+  .order-hight {
+    height: 256px;
+  }
 }
 
 .order-pic {
@@ -11657,12 +11662,18 @@ fieldset:disabled .btn {
   right: 0;
 }
 
+@media (max-width: 768px) {
+  .devider::before {
+    display: none;
+  }
+}
+
 .selected-bottom-line {
   border-bottom: 1px solid #E31277;
 }
 
 .ex-fluid-pic {
-  background: url(../../images/max-van-den-oetelaar-IMYe9uYN27E-unsplash.jpg) no-repeat center center/cover;
+  background: url(../../images/home-banner.jpg) no-repeat center center/cover;
   background: #000;
   height: 400px;
 }
