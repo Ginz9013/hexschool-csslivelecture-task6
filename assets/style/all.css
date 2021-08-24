@@ -11619,6 +11619,22 @@ fieldset:disabled .btn {
   }
 }
 
+.hotExhinition a {
+  height: 350px;
+}
+
+.hotExhinition .ex-1 {
+  background: url(../images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg) no-repeat center center/cover;
+}
+
+.hotExhinition .ex-2 {
+  background: url(../images/michel-catalisano--a0D9LpcKV8-unsplash.jpg) no-repeat center center/cover;
+}
+
+.hotExhinition .ex-3 {
+  background: url(../images/moralis-tsai-8xsktFRw28I-unsplash.jpg) no-repeat center center/cover;
+}
+
 .moreEx a {
   height: 350px;
   display: block;
